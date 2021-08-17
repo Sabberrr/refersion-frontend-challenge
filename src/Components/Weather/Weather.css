@@ -1,0 +1,63 @@
+.weather {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.Title {
+	display: flex;
+	flex-direction: row;
+	flex-basis: 3em;
+}
+.temp {
+	font-size: 55.1px;
+	color: #4a4a4a;
+	padding-left: 161px;
+	padding-right: 161px;
+	height: 66px;
+}
+
+.min-max-temp {
+	margin-top: 19px;
+	margin-right: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	min-width: 15%;
+	font-size: 22.68px;
+	color: #4a4a4a;
+}
+
+#city {
+	margin: auto;
+	font-size: 35px;
+	color: #4a4a4a;
+	flex-grow: 1;
+	max-width: 210.55px;
+	max-height: 48px;
+}
+#weatherIcon {
+	margin: auto;
+	width: 38px;
+	height: 29px;
+}
+#weatherIcon img {
+	width: 100%;
+	height: 100%;
+}
+#description {
+	font-size: 18.18px;
+	text-align: center;
+	padding-left: 85px;
+	padding-right: 121.72px;
+	margin-top: 7px;
+	margin-bottom: 57px;
+}
+
+#divider {
+	width: 598px;
+	margin-top: 55.5px;
+	margin-bottom: 53.5px;
+}
+
+/* make reset css extra */
