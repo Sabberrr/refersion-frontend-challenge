@@ -39,7 +39,7 @@ const WeatherContainer: FC = () => {
 			alert("location not supported");
 		}
 	}, []);
-	console.log(weatherData);
+
 	useEffect(() => {
 		if (weatherData.cod === "404") {
 			alert("city not found");
